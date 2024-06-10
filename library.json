@@ -16,7 +16,7 @@
     "url": "https://github.com/eoh-jsc/era-examples.git"
   },
   "dependencies": {
-    "eoh-ltd/ERa": "^1.2.2"
+    "eoh-ltd/ERa": "^1.3.2"
   },
   "frameworks": "*",
   "platforms": "*",
