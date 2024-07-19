@@ -94,7 +94,7 @@ void timerEvent() {
 void setup() {
     initDHT();
     initSRF();
-	ERa.setAppLoop(false);
+    ERa.setAppLoop(false);
     ERa.setBoardID(boardID);
     ERa.begin(auth, host, port, user, pass);
     ERa.addInterval(1000L, timerEvent);
